@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.panel{
+  box-sizing: content-box;
+  /* display:flex; */
+  border:solid 1px #61dafb;
+  margin-bottom: 10px;
+  width:98%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 3rem;
+}
+
+.panelHeader{
+  border:solid 1px #61dafb; 
+  border-width: 1px;
+  font-size:small;
+  font-weight: bold;
+  width:fit-content;
+  word-break:normal;
+  height: auto;
+  padding-left:2px;
+  padding-right:2px;
+}
+
+.panelEntry{
+  border:solid 1px #61dafb; 
+  border-width: 1px;
+  width:100%;
+  height:5px;
+  box-sizing: border-box;
+  padding:0 0 0 0;
+  margin:0 0 0 0;
+  font-size: medium; 
+}
+
+td input{
+  width:100%;
+  height:100%;
+  box-sizing: border-box;
+  outline: none;
+  background-color: white;
+  /* background-color: palegoldenrod; */
+  font-size: 0.8rem;
+  text-align:center;
+  text-decoration: none;
+  display: inline-block;
+  margin:0 0 0 0;
+}
+
+.action{
+  width:100%;
+  height:100%;
+  box-sizing: border-box;
+  outline: none;
+  background-color: blue;
+  color:white;
+  padding:10px;
+  text-align:center;
+  text-decoration: none;
+  display: inline-block;
+  margin:0 0 0 0;
+}
+
+.addEngine > input{
+  width:100%;
+  height:100%;
+  box-sizing: border-box;
+  outline: none;
+  background-color: #282c34;
+  color:white;
+  padding:10px;
+  text-align:center;
+  text-decoration: none;
+  display: inline-block;
+  margin:0 0 0 0;
+}
+.isChecked{
+  width:100%;
+  height:100%;
+  box-sizing: border-box;
+  outline: none;
+  background-color: greenyellow;
+  color:black;
+  padding:10px;
+  text-align:center;
+  text-decoration: none;
+  display: inline-block;
+  margin:0 0 0 0; 
+}
+
+

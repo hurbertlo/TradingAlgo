@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import CallPanel from './components/trade/CallPanel';
+import PutPanel from './components/trade/PutPanel';
+
 
 function App() {
   return (
@@ -18,7 +21,12 @@ function App() {
         >
           Learn React
         </a>
+        <CallPanel/>
+        <PutPanel/>
       </header>
+
+     
+
     </div>
   );
 }
