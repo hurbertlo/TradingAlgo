@@ -3,6 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 import CallPanel from './components/trade/CallPanel';
 import PutPanel from './components/trade/PutPanel';
+import Inventory from './components/tradeLog/Inventory/Inventory';
+import JournalBoard from './components/tradeLog/Journal/JournalBoard';
+import OperationBoard from './components/tradeLog/Operation/OperationBoard';
+import OrderBoard from './components/tradeLog/Order/OrderBoard';
+import PLSummaryBoard from './components/tradeLog/PLsummary/PLSummaryBoard';
 
 
 function App() {
@@ -21,6 +26,11 @@ function App() {
         >
           Learn React
         </a>
+        <Inventory/>
+        <JournalBoard/>
+        <OperationBoard/>
+        <OrderBoard/>
+        <PLSummaryBoard/>
         <CallPanel/>
         <PutPanel/>
       </header>

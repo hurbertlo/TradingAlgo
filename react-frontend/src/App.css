@@ -56,14 +56,46 @@
   border-width: 1px;
   font-size:small;
   font-weight: bold;
-  width:fit-content;
+  width:min-content;
   word-break:normal;
   height: auto;
-  padding-left:2px;
-  padding-right:2px;
+  padding-left:1px;
+  padding-right:1px;
+  margin: 0%;
 }
 
+.boardContainer{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  margin:5px;
+}
+.boardHeader{
+  border:solid 1px #61dafb; 
+  border-width: 1px;
+  font-size:small;
+  font-weight: bold;
+  width:min-content;
+  word-break:normal;
+  height: auto;
+  padding-left:1px;
+  padding-right:1px;
+  margin: 0%;
+}
 .panelEntry{
+  border:solid 1px #61dafb; 
+  border-width: 1px;
+  width:100%;
+  height:5px;
+  box-sizing: border-box;
+  padding:0 0 0 0;
+  margin:0 0 0 0;
+  font-size: medium; 
+}
+
+.record{
   border:solid 1px #61dafb; 
   border-width: 1px;
   width:100%;
@@ -81,7 +113,7 @@ td input{
   outline: none;
   background-color: white;
   /* background-color: palegoldenrod; */
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-align:center;
   text-decoration: none;
   display: inline-block;
@@ -102,12 +134,16 @@ td input{
   margin:0 0 0 0;
 }
 
+.addEngine{
+  width:2%;
+}
 .addEngine > input{
   width:100%;
   height:100%;
   box-sizing: border-box;
   outline: none;
   background-color: #282c34;
+  font-size: 1rem;
   color:white;
   padding:10px;
   text-align:center;
@@ -129,4 +165,18 @@ td input{
   margin:0 0 0 0; 
 }
 
+.delRow{
+  width : 3%;
+}
 
+.issuer{
+  background-color: darkslateblue;
+}
+
+.tradingVolume{
+  background-color: lightcyan;
+}
+
+.securityPriceParameter{
+  background-color: paleturquoise;
+}

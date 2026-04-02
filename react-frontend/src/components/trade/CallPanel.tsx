@@ -21,7 +21,7 @@ function CallPanel() {
       <thead>
         <tr>
           <th className='panelHeader addEngine'>
-            <input type="button" value="+call" onClick={()=>setCallEngines(i=>{
+            <input type="button" value="+C" onClick={()=>setCallEngines(i=>{
               const newCallEngines = [...i];
               newCallEngines.push(newCallEngines.reduce((a,b)=>{
                 if (a>b){
@@ -35,13 +35,13 @@ function CallPanel() {
             )}></input>
           </th>
           <th className='panelHeader'>stock</th>
-          <th className='panelHeader'>derivatives</th>
+          <th className='panelHeader'>security</th>
           <th className='panelHeader'>issuer</th>
 
           <th className='panelHeader'>bQty</th>
           <th className='panelHeader'>sQty</th>
 
-          <th className='panelHeader'>sellD</th>
+          <th className='panelHeader'>sellV</th>
           <th className='panelHeader'>sellR</th>
           <th className='panelHeader'>sLmt</th>
           <th className='panelHeader'>outPrc</th>
@@ -49,18 +49,20 @@ function CallPanel() {
           <th className='panelHeader'>inPrc</th>
           <th className='panelHeader'>bLmt</th>
           <th className='panelHeader'>buyR</th>
-          <th className='panelHeader'>buyD</th>
+          <th className='panelHeader'>buyV</th>
 
           <th className='panelHeader'>buy</th>
           <th className='panelHeader'>sell</th>
           <th className='panelHeader'>sellAll</th>
-          <th className='panelHeader'>fBuy</th>
-          <th className='panelHeader'>fSell</th>
-          <th className='panelHeader'>fSellAll</th>
+          
 
           <th className='panelHeader'>filled</th>
           <th className='panelHeader'>profitG</th>
-          <th className='panelHeader'>stopL</th>  
+          <th className='panelHeader'>stopL</th> 
+
+          <th className='panelHeader'>fBuy</th>
+          <th className='panelHeader'>fSell</th>
+          <th className='panelHeader'>fSellAll</th> 
         </tr>
       </thead>
       <tbody>
